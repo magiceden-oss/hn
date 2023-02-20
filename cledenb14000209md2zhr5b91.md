@@ -2,7 +2,7 @@
 
 As the leading cross-chain NFT platform for Solana, Ethereum, and Polygon, Magic Eden handles a significant amount of traffic daily, both through our core website as well as our [API that we expose to the community](https://api.magiceden.dev/). In 2021, Magic Eden processed over 1.5x more transactions than [OpenSea](https://opensea.io/), with each tx reflecting on the site in a matter of 1-3 seconds.
 
-While our business scaled, our stack struggled to keep up. Early 2022 was a mix of weekly outages, slow load times, and many a stale NFT listing. While the original backend got the job done, we realized that we couldn't achieve the stability and performance our users needed without a rewrite.
+While our user base scaled, our stack struggled to keep up. Early 2022 was a mix of frequent outages, slow load times, and many a stale NFT listing. While the original backend got the job done, we realized that we couldn't achieve the stability and performance our users needed without a rewrite.
 
 After rebuilding our indexing and backend systems last year, we were proud to deliver a fast and much more reliable backend, including the following highlights:
 
