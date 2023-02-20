@@ -21,9 +21,9 @@ Overall p99 of our API across all endpoints improved dramatically, tying up fewe
 
 ![](https://lh4.googleusercontent.com/Do0ztxvwTnb9lnpbh8kuZ0d-7AgpPze7gSdhf-jt5_nGw5-2-jFQv1Wos3sUUqAQFrPg7ljILiPcM4vYWYYDbm3v7GD1N_l_ImauxLWw_N2yBpRu9QV1Ki0iWBIdV-Qm7WBSQcIGkAifpmzfi_JwE28 align="left")
 
-The time for our internal systems to reflect the most recent state of Solana improved 30x, usually below 2s end-to-end:
+The time for our internal systems to reflect the most recent state of Solana improved 30x, usually below 2s end-to-end
 
-![](https://lh5.googleusercontent.com/XA_7Z-4lQSPFRhq2uLM2PzE0W8SB0MIuSkTkqp5P7bsnGU-40uY4B-vn1hFYAImieHAHlCJUYkiLSbOId8IBUPCmZ_onV0Nhby4cXx6C63oaN9Hmj4H5aYsPPHY9c0ylp8AN-9uNnGEa__YBu86pG_g align="left")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1676933428457/f90e85d7-a181-4e38-a939-4893e1d278ff.png align="center")
 
 Recently, we’ve hit up to 4000 queries per second across all of our APIs. Our APIs for fetching NFTs for specific collections hit 100qps and 500qps at peak. Our system handles 300 transactions a second at peak, with transactions reflecting on the site from the blockchain within seconds.
 
