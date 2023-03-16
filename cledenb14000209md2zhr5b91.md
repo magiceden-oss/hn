@@ -1,4 +1,14 @@
-# Scaling Magic Eden: Part 1
+---
+title: "Scaling Magic Eden: Part 1"
+seoTitle: "Scaling Magic Eden (Part 1)"
+seoDescription: "How Magic Eden scaled its marketplace on Solana using Geyser, Kafka, Redis, and AWS Aurora (Part 1)"
+datePublished: Mon Feb 20 2023 22:44:21 GMT+0000 (Coordinated Universal Time)
+cuid: cledenb14000209md2zhr5b91
+slug: scaling-magic-eden-part-1
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1676933173806/7f3c655f-5955-4175-a2d6-05c53dc67b23.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1676932949236/1fcac1ff-0de4-402e-81d1-36f6424e87d5.png
+
+---
 
 As the leading cross-chain NFT platform for Solana, Ethereum, and Polygon, Magic Eden handles a significant amount of traffic daily, both through our core website as well as our [API that we expose to the community](https://api.magiceden.dev/). In 2021, Magic Eden processed over 1.5x more transactions than [OpenSea](https://opensea.io/), with each tx reflecting on the site in a matter of 1-3 seconds.
 
@@ -158,4 +168,4 @@ RPC nodes don’t support pagination on most endpoints. This means that APIs hav
 
 ### **Enter Geyser**
 
-This is where [Geyser](https://docs.solana.com/developing/plugins/geyser-plugins) - a validator plugin for data streaming - comes in. We’ll discuss Geyser details, the motivations behind integrating it into your stack, and some popular plugins in the next post.
+This is where [Geyser](https://docs.solana.com/developing/plugins/geyser-plugins) - a validator plugin for data streaming - comes in. We’ll discuss Geyser details, the motivations behind integrating it into your stack, and some popular plugins in the [next post](https://eng.magiceden.dev/scaling-magic-eden-part-2).
