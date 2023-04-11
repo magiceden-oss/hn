@@ -5,6 +5,7 @@ seoDescription: "How Magic Eden scaled its marketplace on Solana using Geyser, K
 datePublished: Mon Apr 10 2023 21:42:38 GMT+0000 (Coordinated Universal Time)
 cuid: clgbd0oys000209lm5vi3egw6
 slug: scaling-magic-eden-part-3
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1681254954698/a4811b21-714e-4b5d-bf97-b5f8210aaed4.png
 tags: blockchain, solana, nft, geyser, magiceden
 
 ---
