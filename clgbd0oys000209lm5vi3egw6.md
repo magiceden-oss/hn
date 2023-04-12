@@ -27,7 +27,7 @@ In this post, we’ll run through our architecture, including:
 
 In migrating to Geyser-based indexing, Magic Eden’s performance has improved from several angles, including freshness (how long does it take an update to make it from confirmation to the DB) as well as read performance (RPC-less reads, custom indices).
 
-We’ve cut down our chain-to-db indexing latency (post transaction confirmation) to 1.5s at p95 from upwards of 20s+
+We’ve cut down our indexing speed to 1.5s at p95 from upwards of 20s+
 
 Reads have also dramatically improved around the board:
 
@@ -102,7 +102,7 @@ fn update_account(
                 }
             }
         }
-} 
+}
 ```
 
 This checks if the account is a part of the Token program, and if so, deserializes the account, publishing the account update to Kafka if the account’s mint address matches the SOL token.
