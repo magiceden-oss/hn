@@ -10,7 +10,7 @@ ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1676932949236/1fcac
 
 ---
 
-As the leading cross-chain NFT platform for Solana, Ethereum, and Polygon, Magic Eden handles a significant amount of traffic daily, both through our core website as well as our [API that we expose to the community](https://api.magiceden.dev/). In 2021, Magic Eden processed over 1.5x more transactions than [OpenSea](https://opensea.io/), with each tx reflecting on the site in a matter of 1-3 seconds.
+As the leading cross-chain NFT platform for Solana, Ethereum, and Polygon, Magic Eden handles a significant amount of traffic daily, both through our core website as well as our [API that we expose to the community](https://api.magiceden.dev/). In 2021, Magic Eden processed over 1.5x more transactions than [OpenSea](https://opensea.io/), with each tx reflecting on the site in under 1 second.
 
 While our user base scaled, our stack struggled to keep up. Early 2022 was a mix of frequent outages, slow load times, and many a stale NFT listing. While the original backend got the job done, we realized that we couldn't achieve the stability and performance our users needed without a rewrite.
 
@@ -33,9 +33,9 @@ Overall p99 of our API across all endpoints improved dramatically, tying up fewe
 
 ![](https://lh4.googleusercontent.com/Do0ztxvwTnb9lnpbh8kuZ0d-7AgpPze7gSdhf-jt5_nGw5-2-jFQv1Wos3sUUqAQFrPg7ljILiPcM4vYWYYDbm3v7GD1N_l_ImauxLWw_N2yBpRu9QV1Ki0iWBIdV-Qm7WBSQcIGkAifpmzfi_JwE28 align="left")
 
-The time for our internal systems to reflect the most recent state of Solana improved 30x, usually below 2s end-to-end
+The time for our internal systems to reflect the most recent state of Solana improved 30x, usually below 1s end-to-end
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1676933428457/f90e85d7-a181-4e38-a939-4893e1d278ff.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1681497624118/aeb6d0f9-7476-44a8-9735-f897b84de133.png align="center")
 
 Recently, we’ve hit up to 4000 queries per second across all of our APIs. Our APIs for fetching NFTs for specific collections hit 100qps and 500qps at peak. Our system handles 300 transactions a second at peak, with transactions reflecting on the site from the blockchain within seconds.
 
